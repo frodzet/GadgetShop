@@ -1,0 +1,17 @@
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\bin\Debug\net5.0\WorldWideGadgetShop.SQL.deps.json
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\bin\Debug\net5.0\WorldWideGadgetShop.SQL.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\bin\Debug\net5.0\ref\WorldWideGadgetShop.SQL.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\bin\Debug\net5.0\WorldWideGadgetShop.SQL.pdb
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\bin\Debug\net5.0\WorldWideGadgetShop.Core.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\bin\Debug\net5.0\WorldWideGadgetShop.Domain.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\bin\Debug\net5.0\WorldWideGadgetShop.Core.pdb
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\bin\Debug\net5.0\WorldWideGadgetShop.Domain.pdb
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\obj\Debug\net5.0\WorldWideGadgetShop.SQL.csproj.AssemblyReference.cache
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\obj\Debug\net5.0\WorldWideGadgetShop.SQL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\obj\Debug\net5.0\WorldWideGadgetShop.SQL.AssemblyInfoInputs.cache
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\obj\Debug\net5.0\WorldWideGadgetShop.SQL.AssemblyInfo.cs
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\obj\Debug\net5.0\WorldWideGadgetShop.SQL.csproj.CoreCompileInputs.cache
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\obj\Debug\net5.0\WorldWideGadgetShop.SQL.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\obj\Debug\net5.0\ref\WorldWideGadgetShop.SQL.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\obj\Debug\net5.0\WorldWideGadgetShop.SQL.pdb
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.SQL\obj\Debug\net5.0\WorldWideGadgetShop.SQL.csproj.CopyComplete

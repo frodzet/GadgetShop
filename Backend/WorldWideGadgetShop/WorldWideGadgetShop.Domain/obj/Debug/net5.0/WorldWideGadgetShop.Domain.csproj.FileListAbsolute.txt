@@ -1,0 +1,15 @@
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\bin\Debug\net5.0\WorldWideGadgetShop.Domain.deps.json
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\bin\Debug\net5.0\WorldWideGadgetShop.Domain.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\bin\Debug\net5.0\ref\WorldWideGadgetShop.Domain.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\bin\Debug\net5.0\WorldWideGadgetShop.Domain.pdb
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\bin\Debug\net5.0\WorldWideGadgetShop.Core.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\bin\Debug\net5.0\WorldWideGadgetShop.Core.pdb
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\obj\Debug\net5.0\WorldWideGadgetShop.Domain.csproj.AssemblyReference.cache
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\obj\Debug\net5.0\WorldWideGadgetShop.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\obj\Debug\net5.0\WorldWideGadgetShop.Domain.AssemblyInfoInputs.cache
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\obj\Debug\net5.0\WorldWideGadgetShop.Domain.AssemblyInfo.cs
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\obj\Debug\net5.0\WorldWideGadgetShop.Domain.csproj.CoreCompileInputs.cache
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\obj\Debug\net5.0\WorldWideGadgetShop.Domain.csproj.CopyComplete
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\obj\Debug\net5.0\WorldWideGadgetShop.Domain.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\obj\Debug\net5.0\ref\WorldWideGadgetShop.Domain.dll
+C:\Datamatiker\WorldWideGadgetShop\WorldWideGadgetShop.Domain\obj\Debug\net5.0\WorldWideGadgetShop.Domain.pdb
