@@ -1,0 +1,18 @@
+<div class="row">
+  <div class="col-md-3 col-sm-6" *ngIf="singleProduct">
+    <div class="product-grid">
+      <div class="product-content" style="margin: 50px;">
+        <div class="product-image">
+          <img src="{{singleProduct.imageURL}}" alt="TestIcon"/>
+        </div>
+        <h3 class="title">{{singleProduct.name}}</h3>
+        <div class="type">{{singleProduct.type}}</div>
+        <div class="description">{{singleProduct.description}}</div>
+        <div class="price">{{singleProduct.price}} €</div>
+        <button class="add-to-cart" (click)="addToCart(singleProduct)">Add To Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+

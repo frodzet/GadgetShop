@@ -1,0 +1,91 @@
+<form [formGroup]="productForm" (ngSubmit)="create()">
+
+  <label for="name">Name: </label>
+  <input id="name" type="text" formControlName="name">
+
+  <div *ngIf="name && name.invalid && (name.dirty || name.touched)"
+       class="alert alert-danger">
+
+    <div *ngIf="name.errors?.required">
+      Username is required.
+    </div>
+    <div *ngIf="name.errors?.minLength">
+      Username must be at least 4 characters long.
+    </div>
+  </div>
+
+  <label for="description">Description: </label>
+  <input id="description" type="text" formControlName="description">
+
+  <div *ngIf="description && description.invalid && (description.dirty || description.touched)"
+       class="alert alert-danger">
+
+    <div *ngIf="description.errors?.required">
+      Password is required.
+    </div>
+
+  </div>
+
+  <label for="type">type: </label>
+  <input id="type" type="type" formControlName="type">
+
+  <div *ngIf="type && type.invalid && (type.dirty || type.touched)"
+       class="alert alert-danger">
+
+    <div *ngIf="type.errors?.required">
+      Password is required.
+    </div>
+
+  </div>
+
+  <label for="price">price: </label>
+  <input id="price" type="price" formControlName="price">
+
+  <div *ngIf="price && price.invalid && (price.dirty || price.touched)"
+       class="alert alert-danger">
+
+    <div *ngIf="price.errors?.required">
+      Password is required.
+    </div>
+
+  </div>
+
+  <label for="amount">amount: </label>
+  <input id="amount" type="amount" formControlName="amount">
+
+  <div *ngIf="amount && amount.invalid && (amount.dirty || amount.touched)"
+       class="alert alert-danger">
+
+    <div *ngIf="amount.errors?.required">
+      Password is required.
+    </div>
+
+  </div>
+
+  <label for="canShow">canShow: </label>
+  <input id="canShow" type="canShow" formControlName="canShow">
+
+  <div *ngIf="canShow && canShow.invalid && (canShow.dirty || canShow.touched)"
+       class="alert alert-danger">
+
+    <div *ngIf="canShow.errors?.required">
+      Password is required.
+    </div>
+
+  </div>
+
+  <label for="imageURL">imageURL: </label>
+  <input id="imageURL" type="imageURL" formControlName="imageURL">
+
+  <div *ngIf="imageURL && imageURL.invalid && (imageURL.dirty || imageURL.touched)"
+       class="alert alert-danger">
+
+    <div *ngIf="imageURL.errors?.required">
+      Password is required.
+    </div>
+
+  </div>
+
+  <button type="submit" [disabled]="!productForm.valid">Create Product</button>
+
+</form>

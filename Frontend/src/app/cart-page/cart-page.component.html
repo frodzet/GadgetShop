@@ -1,0 +1,25 @@
+<div class="row">
+  <div class="col-md-3 col-sm-6" *ngFor="let product of products;">
+    <div class="product-grid">
+      <div class="product-content" style="margin: 50px;">
+        <div class="product-image">
+          <img src="{{product.imageURL}}"/>
+        </div>
+        <h3 class="title">{{product.name}}</h3>
+        <div class="type">{{product.type}}</div>
+        <div class="description">{{product.description}}</div>
+        <div class="price">{{product.price}} €</div>
+        <div class="amount"> {{product.amount}}</div>
+
+        <button (click)="updateProduct(product, true)">+</button>
+
+        <button (click)="updateProduct(product, false)">-</button>
+
+        <button (click)="removeFromCart(product)">Remove From Cart</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div>
+  <button (click)="clearCart()">Clear Cart</button>
+</div>

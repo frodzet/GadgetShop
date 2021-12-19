@@ -1,0 +1,29 @@
+<a [routerLink]="['/admin/create']">
+  Create
+</a>
+
+<a [routerLink]="['/admin']">
+  Main
+</a>
+
+<div class="col">
+  <div class="row">
+    <div class="col-md-3 col-sm-6" *ngFor="let product of products;">
+      <div class="product-grid">
+        <div class="product-content" style="margin: 50px;">
+          <div class="product-image">
+            <img class="image scale_width" src="{{product.imageURL}}"/>
+          </div>
+          <h3 class="title">{{product.name}}</h3>
+          <div class="type">{{product.type}}</div>
+          <div class="description">{{product.description}}</div>
+          <div class="price">{{product.price}} €</div>
+          <div class="amount"> {{product.amount}}</div>
+          <button class="add-to-cart" (click)="deleteProduct(product)">Delete</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
