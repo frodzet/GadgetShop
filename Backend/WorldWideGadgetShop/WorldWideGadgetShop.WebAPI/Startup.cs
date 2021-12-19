@@ -66,7 +66,7 @@ namespace WorldWideGadgetShop.WebAPI
 
             services.AddTransient<IDatabaseInitializer, DatabaseInitializer>();
             
-            services.AddSingleton<IHelperService>(new HelperService(secretBytes));
+            services.AddSingleton<IAuthenticationService>(new AuthenticationService(secretBytes));
             services.AddCors();
             services.AddDbContext<DBContext>(opt =>
             {

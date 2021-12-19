@@ -11,9 +11,9 @@ namespace WorldWideGadgetShop.Domain.Services
     public class UserService : IUserService
     {
         private readonly IUserRepository _userRepo;
-        private readonly IHelperService _authHelper;
+        private readonly IAuthenticationService _authHelper;
         
-        public UserService(IUserRepository  userRepo, IHelperService authHelper)
+        public UserService(IUserRepository  userRepo, IAuthenticationService authHelper)
         {
             _userRepo = userRepo;
             _authHelper = authHelper;
@@ -21,7 +21,8 @@ namespace WorldWideGadgetShop.Domain.Services
         
         public User CreateUser(User user)
         {
-            throw new System.NotImplementedException();
+            var u = _userRepo.CreateUser(user);
+            return u;
         }
 
         public string Login(string name, string password)
@@ -69,7 +70,7 @@ namespace WorldWideGadgetShop.Domain.Services
 
         public List<User> GetAllUsers()
         {
-            throw new System.NotImplementedException();
+            return _userRepo.GetAllUsers();
         }
 
         public User GetUserById(int id)

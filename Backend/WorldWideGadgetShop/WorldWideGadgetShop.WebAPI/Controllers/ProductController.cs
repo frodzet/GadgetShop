@@ -16,6 +16,7 @@ namespace WorldWideGadgetShop.WebAPI.Controllers
         {
             _productService = productService;
         }
+        
         // Create
         [HttpPost]
         public ActionResult<Product> Create([FromBody] Product product)
@@ -61,7 +62,6 @@ namespace WorldWideGadgetShop.WebAPI.Controllers
                 return BadRequest(e.Message);
             }
         }
-        
         
         // Delete
         [HttpDelete("{id}")]

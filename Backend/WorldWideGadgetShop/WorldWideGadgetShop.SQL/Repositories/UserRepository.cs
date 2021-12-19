@@ -17,7 +17,9 @@ namespace WorldWideGadgetShop.SQL.Repositories
         
         public User CreateUser(User user)
         {
-            throw new System.NotImplementedException();
+            _ctx.Attach(user).State = EntityState.Added;
+            _ctx.SaveChanges();
+            return user;
         }
 
         public List<User> GetAllUsers()
