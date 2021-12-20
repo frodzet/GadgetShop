@@ -9,7 +9,6 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { MainPageComponent } from './main-page/main-page.component';
 import { SinglePageComponent } from './single-page/single-page.component';
 import { CartPageComponent } from './cart-page/cart-page.component';
-import { OrderPageComponent } from './order-page/order-page.component';
 import {LoginComponent} from "./login/login.component";
 import {NgxsModule} from "@ngxs/store";
 import {AuthState} from "./shared/states/auth/auth.state";
@@ -27,7 +26,6 @@ import { AdminCreateComponent } from './admin-create/admin-create.component';
     MainPageComponent,
     SinglePageComponent,
     CartPageComponent,
-    OrderPageComponent,
     LoginComponent,
     AdminPageComponent,
     AdminCreateComponent

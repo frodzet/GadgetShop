@@ -4,7 +4,6 @@ import {MainPageComponent} from "./main-page/main-page.component";
 import {LoginComponent} from "./login/login.component";
 import {SinglePageComponent} from "./single-page/single-page.component";
 import {CartPageComponent} from "./cart-page/cart-page.component";
-import {OrderPageComponent} from "./order-page/order-page.component";
 import {GuardService} from "./shared/states/auth/_guard/guard.service";
 import {AdminPageComponent} from "./admin-page/admin-page.component";
 import {AdminGuardService} from "./shared/states/auth/_guard/_admin.guard.service";
@@ -26,10 +25,6 @@ const routes: Routes = [
   {
     path: 'cart',
     component: CartPageComponent
-  },
-  {
-    path: 'order',
-    component: OrderPageComponent, canActivate: [GuardService]
   },
   {
     path: 'admin',
